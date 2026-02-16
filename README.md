@@ -37,6 +37,7 @@
 - Chief Technology Officer, PreTalen (01/2016 - 12/2019)
 - Senior Software Engineer, NDC Technologies (05/2013 - 01/2016)
 - Senior Member of R&D Staff, GIRD Systems (05/2004 - 05/2013)
+- Software Engineer, UDRI (07/1999 - 05/2004)
 
 ## GitHub Activity
 
