@@ -20,7 +20,6 @@ jobs:
       - name: Update README with latest blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          branch: "main"
           feed_list: "https://bhart.org/rss.xml"
           max_post_count: 5
           readme_path: "README.md"
@@ -30,12 +29,18 @@ jobs:
       - name: Update README with latest news
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          branch: "main"
           comment_tag_name: "NEWS-LIST"
           feed_list: "https://bhart.org/news-rss.xml"
           max_post_count: 5
           readme_path: "README.md"
-          commit_message: "chore: refresh README feeds"
-          committer_username: "github-actions[bot]"
-          committer_email: "github-actions[bot]@users.noreply.github.com"
+          skip_commit: true
           gh_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push README updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && echo "No README changes to commit" && exit 0
+          git commit -m "chore: refresh README feeds"
+          git push origin HEAD:main
