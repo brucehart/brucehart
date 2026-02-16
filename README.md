@@ -42,7 +42,11 @@
 ## News
 
 <!-- NEWS-LIST:START -->
-- [Latest news feed](https://bhart.org/news-rss.xml)
+- [harlite 0.3 — big workflow, privacy and observability upgrades](https://bhart.org/news#news-bdc09d82-9fa6-4b7d-a179-b8d33b60947b)
+- [harlite: query HAR files with SQL](https://bhart.org/news#news-0d2608a4-4d33-477e-8b50-706506bf2268)
+- [Glimpse of OpenAI Running Cerebras?](https://bhart.org/news#news-619c09f2-be27-4e22-ac6b-512db5a4b061)
+- [New Prototype - Poker Boom](https://bhart.org/news#news-5fdcb5d4-8b65-4531-9de2-d2d5ae4de43d)
+- [Celebrating 10 years at PreTalen/Centauri/KBR](https://bhart.org/news#news-9e34ac6c-9842-4b69-a2d1-155e8c659679)
 <!-- NEWS-LIST:END -->
 
 ## Latest Blog Posts
