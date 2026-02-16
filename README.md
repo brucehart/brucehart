@@ -1,6 +1,6 @@
 # Hi, I'm Bruce 👋
 
-📍 **Bellbrook, OH** | 🤖 **AI-focused software engineer** | 🚀 **Building practical tooling (with decent error messages)**
+📍 **Bellbrook, OH** | 🤖 **AI-focused software engineer** | 🚀 **Building fun projects that spark my interest**
 
 ![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
