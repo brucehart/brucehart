@@ -39,9 +39,11 @@
 - 🔬 Senior Member of R&D Staff, GIRD Systems (05/2004 - 05/2013)
 - 💻 Software Engineer, UDRI (07/1999 - 05/2004)
 
-## GitHub Activity
+## News
 
-![GitHub Contribution Graph](https://ghchart.rshah.org/brucehart)
+<!-- NEWS-LIST:START -->
+- [Latest news feed](https://bhart.org/news-rss.xml)
+<!-- NEWS-LIST:END -->
 
 ## Latest Blog Posts
 

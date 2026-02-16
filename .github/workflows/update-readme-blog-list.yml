@@ -1,4 +1,4 @@
-name: Update README Blog List
+name: Update README Feeds
 
 on:
   schedule:
@@ -17,13 +17,23 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Update README with latest posts
+      - name: Update README with latest blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://bhart.org/rss.xml"
           max_post_count: 5
           readme_path: "README.md"
-          commit_message: "chore: refresh latest blog posts in README"
+          disable_commit: true
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update README with latest news
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: "NEWS-LIST"
+          feed_list: "https://bhart.org/news-rss.xml"
+          max_post_count: 5
+          readme_path: "README.md"
+          commit_message: "chore: refresh README feeds"
           committer_username: "github-actions[bot]"
           committer_email: "github-actions[bot]@users.noreply.github.com"
           gh_token: ${{ secrets.GITHUB_TOKEN }}
