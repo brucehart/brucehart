@@ -18,25 +18,56 @@ jobs:
           fetch-depth: 0
 
       - name: Update README with latest blog posts
+        id: blog_posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://bhart.org/rss.xml"
           max_post_count: 5
-          readme_path: "README.md"
-          skip_commit: true
+          output_only: true
           enable_keepalive: false
           gh_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update README with latest news
+        id: news_posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: "NEWS-LIST"
           feed_list: "https://bhart.org/news-rss.xml"
           max_post_count: 5
-          readme_path: "README.md"
-          skip_commit: true
+          output_only: true
           enable_keepalive: false
           gh_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render feed sections into README
+        env:
+          BLOG_RESULTS: ${{ steps.blog_posts.outputs.results }}
+          NEWS_RESULTS: ${{ steps.news_posts.outputs.results }}
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+
+          const readmePath = 'README.md';
+          const readme = fs.readFileSync(readmePath, 'utf8');
+
+          const blogPosts = JSON.parse(process.env.BLOG_RESULTS || '[]');
+          const newsPosts = JSON.parse(process.env.NEWS_RESULTS || '[]');
+
+          const toList = (posts) =>
+            posts.map((p) => `- [${p.title}](${p.url})`).join('\n');
+
+          const replaceSection = (content, tag, list) => {
+            const start = `<!-- ${tag}:START -->`;
+            const end = `<!-- ${tag}:END -->`;
+            const pattern = new RegExp(`${start}[\\s\\S]*?${end}`, 'm');
+            return content.replace(pattern, `${start}\n${list}\n${end}`);
+          };
+
+          let updated = readme;
+          updated = replaceSection(updated, 'BLOG-POST-LIST', toList(blogPosts));
+          updated = replaceSection(updated, 'NEWS-LIST', toList(newsPosts));
+
+          fs.writeFileSync(readmePath, updated);
+          NODE
 
       - name: Commit and push README updates
         run: |
