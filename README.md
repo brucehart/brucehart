@@ -52,11 +52,11 @@
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [GitHub Workflows Turned My README into a Living Homepage](https://bhart.org/articles/github-workflows-turned-my-readme-into-a-living-homepage)
 - [I Put Codex Spark in My .bashrc and It Changed My Command Line](https://bhart.org/articles/codex-spark-bashrc-command-generator)
 - [Codex Spark: Speed vs Depth](https://bhart.org/articles/codex-spark-speed-vs-depth)
 - [Seedance 2.0 and the Future of Infinite TV](https://bhart.org/articles/seedance-20-and-the-future-of-infinite-tv)
 - [Unlocking More with Codex Skills](https://bhart.org/articles/unlocking-more-with-codex-skills)
-- [OpenClaw and the Security Cliff for AI Agents](https://bhart.org/articles/openclaw-and-the-security-cliff-for-ai-agents)
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect
