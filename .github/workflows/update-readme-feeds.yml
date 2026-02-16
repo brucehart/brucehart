@@ -23,7 +23,7 @@ jobs:
           feed_list: "https://bhart.org/rss.xml"
           max_post_count: 5
           readme_path: "README.md"
-          disable_commit: true
+          skip_commit: true
           gh_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update README with latest news
