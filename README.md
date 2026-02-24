@@ -52,11 +52,11 @@
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Google Stitch Is the Most Overlooked Tool in the AI Builder Stack](https://bhart.org/articles/google-stitch-is-the-most-overlooked-tool-in-the-ai-builder-stack)
 - [Gemini 3.1 Pro Review: Better, But Still Behind Where It Matters](https://bhart.org/articles/gemini-31-pro-review-better-but-still-behind-where-it-matters)
 - [GitHub Workflows Turned My README into a Living Homepage](https://bhart.org/articles/github-workflows-turned-my-readme-into-a-living-homepage)
 - [I Put Codex Spark in My .bashrc and It Changed My Command Line](https://bhart.org/articles/codex-spark-bashrc-command-generator)
 - [Codex Spark: Speed vs Depth](https://bhart.org/articles/codex-spark-speed-vs-depth)
-- [Seedance 2.0 and the Future of Infinite TV](https://bhart.org/articles/seedance-20-and-the-future-of-infinite-tv)
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect
