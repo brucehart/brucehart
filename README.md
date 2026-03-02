@@ -22,6 +22,7 @@
 - 🍼 **[bhart-org](https://github.com/brucehart/bhart-org)** – personal site and writing platform on Cloudflare Workers
 - 🔎 **[web-tools](https://github.com/brucehart/web-tools)** – browser tools for everyday utility tasks I keep forgetting are simple
 - 🧾 **[codex-transcripts](https://github.com/brucehart/codex-transcripts)** – converts Codex session logs into mobile-friendly transcripts
+- 🧰 **[codex-skills](https://github.com/brucehart/codex-skills)** – reusable Codex skills for practical, repeatable workflows
 - 📊 **[harlite](https://github.com/brucehart/harlite)** – imports HAR files into SQLite so debugging is slightly less painful
 - 🧠 **[Codex CLI Prompts](https://github.com/brucehart/codex-prompts)** – reusable prompts for docs, commits, PRs, refactors, and tests
 - 🌙 **[Bedtime Stories](https://github.com/brucehart/bedtimestories)** – AI-generated stories delivered via Cloudflare Worker
