@@ -52,8 +52,25 @@ jobs:
           const blogPosts = JSON.parse(process.env.BLOG_RESULTS || '[]');
           const newsPosts = JSON.parse(process.env.NEWS_RESULTS || '[]');
 
+          const toSmallDate = (post) => {
+            const raw =
+              post.date || post.pubDate || post.isoDate || post.published || post.publishedAt;
+            if (!raw) return '';
+
+            const parsed = new Date(raw);
+            if (Number.isNaN(parsed.getTime())) return ` <sub>(${raw})</sub>`;
+
+            const formatted = parsed.toLocaleDateString('en-US', {
+              month: 'short',
+              day: 'numeric',
+              year: 'numeric',
+              timeZone: 'UTC',
+            });
+            return ` <sub>(${formatted})</sub>`;
+          };
+
           const toList = (posts) =>
-            posts.map((p) => `- [${p.title}](${p.url})`).join('\n');
+            posts.map((p) => `- [${p.title}](${p.url})${toSmallDate(p)}`).join('\n');
 
           const replaceSection = (content, tag, list) => {
             const start = `<!-- ${tag}:START -->`;
