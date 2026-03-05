@@ -43,21 +43,21 @@
 ## News
 
 <!-- NEWS-LIST:START -->
-- [harlite 0.3 — big workflow, privacy and observability upgrades](https://bhart.org/news#news-bdc09d82-9fa6-4b7d-a179-b8d33b60947b)
-- [harlite: query HAR files with SQL](https://bhart.org/news#news-0d2608a4-4d33-477e-8b50-706506bf2268)
-- [Glimpse of OpenAI Running Cerebras?](https://bhart.org/news#news-619c09f2-be27-4e22-ac6b-512db5a4b061)
-- [New Prototype - Poker Boom](https://bhart.org/news#news-5fdcb5d4-8b65-4531-9de2-d2d5ae4de43d)
-- [Celebrating 10 years at PreTalen/Centauri/KBR](https://bhart.org/news#news-9e34ac6c-9842-4b69-a2d1-155e8c659679)
+- [New userscript: NYT Connections Color Cycler](https://bhart.org/news#news-900b7a41-1920-43a9-bc43-fb70797faaaf) <sub>(Mar 4, 2026)</sub>
+- [harlite 0.3 — big workflow, privacy and observability upgrades](https://bhart.org/news#news-bdc09d82-9fa6-4b7d-a179-b8d33b60947b) <sub>(Feb 11, 2026)</sub>
+- [harlite: query HAR files with SQL](https://bhart.org/news#news-0d2608a4-4d33-477e-8b50-706506bf2268) <sub>(Jan 27, 2026)</sub>
+- [Glimpse of OpenAI Running Cerebras?](https://bhart.org/news#news-619c09f2-be27-4e22-ac6b-512db5a4b061) <sub>(Jan 24, 2026)</sub>
+- [New Prototype - Poker Boom](https://bhart.org/news#news-5fdcb5d4-8b65-4531-9de2-d2d5ae4de43d) <sub>(Jan 17, 2026)</sub>
 <!-- NEWS-LIST:END -->
 
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Google Stitch Is the Most Overlooked Tool in the AI Builder Stack](https://bhart.org/articles/google-stitch-is-the-most-overlooked-tool-in-the-ai-builder-stack)
-- [Gemini 3.1 Pro Review: Better, But Still Behind Where It Matters](https://bhart.org/articles/gemini-31-pro-review-better-but-still-behind-where-it-matters)
-- [GitHub Workflows Turned My README into a Living Homepage](https://bhart.org/articles/github-workflows-turned-my-readme-into-a-living-homepage)
-- [I Put Codex Spark in My .bashrc and It Changed My Command Line](https://bhart.org/articles/codex-spark-bashrc-command-generator)
-- [Codex Spark: Speed vs Depth](https://bhart.org/articles/codex-spark-speed-vs-depth)
+- [Google Stitch Is the Most Overlooked Tool in the AI Builder Stack](https://bhart.org/articles/google-stitch-is-the-most-overlooked-tool-in-the-ai-builder-stack) <sub>(Feb 24, 2026)</sub>
+- [Gemini 3.1 Pro Review: Better, But Still Behind Where It Matters](https://bhart.org/articles/gemini-31-pro-review-better-but-still-behind-where-it-matters) <sub>(Feb 20, 2026)</sub>
+- [GitHub Workflows Turned My README into a Living Homepage](https://bhart.org/articles/github-workflows-turned-my-readme-into-a-living-homepage) <sub>(Feb 16, 2026)</sub>
+- [I Put Codex Spark in My .bashrc and It Changed My Command Line](https://bhart.org/articles/codex-spark-bashrc-command-generator) <sub>(Feb 15, 2026)</sub>
+- [Codex Spark: Speed vs Depth](https://bhart.org/articles/codex-spark-speed-vs-depth) <sub>(Feb 13, 2026)</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect
