@@ -53,11 +53,11 @@
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [What If the Best Models End Up a Little Weird?](https://bhart.org/articles/what-if-the-best-models-end-up-a-little-weird) <sub>(Mar 6, 2026)</sub>
 - [Google Stitch Is the Most Overlooked Tool in the AI Builder Stack](https://bhart.org/articles/google-stitch-is-the-most-overlooked-tool-in-the-ai-builder-stack) <sub>(Feb 24, 2026)</sub>
 - [Gemini 3.1 Pro Review: Better, But Still Behind Where It Matters](https://bhart.org/articles/gemini-31-pro-review-better-but-still-behind-where-it-matters) <sub>(Feb 20, 2026)</sub>
 - [GitHub Workflows Turned My README into a Living Homepage](https://bhart.org/articles/github-workflows-turned-my-readme-into-a-living-homepage) <sub>(Feb 16, 2026)</sub>
 - [I Put Codex Spark in My .bashrc and It Changed My Command Line](https://bhart.org/articles/codex-spark-bashrc-command-generator) <sub>(Feb 15, 2026)</sub>
-- [Codex Spark: Speed vs Depth](https://bhart.org/articles/codex-spark-speed-vs-depth) <sub>(Feb 13, 2026)</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect
