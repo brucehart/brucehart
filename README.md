@@ -53,11 +53,11 @@
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Partial Minds: Intelligence, God, and the Limits of Access](https://bhart.org/articles/partial-minds-intelligence-god-and-the-limits-of-access) <sub>(Mar 15, 2026)</sub>
 - [GPT-5.4 Is My Daily Driver. Claude Opus 4.6 Is Still My Specialist.](https://bhart.org/articles/gpt-54-is-my-daily-driver-claude-opus-46-is-still-my-specialist) <sub>(Mar 11, 2026)</sub>
 - [GPT-5.4 Feels Like the Start of the Stability Era](https://bhart.org/articles/gpt-54-feels-like-the-start-of-the-stability-era) <sub>(Mar 7, 2026)</sub>
 - [What If the Best Models End Up a Little Weird?](https://bhart.org/articles/what-if-the-best-models-end-up-a-little-weird) <sub>(Mar 6, 2026)</sub>
 - [Google Stitch Is the Most Overlooked Tool in the AI Builder Stack](https://bhart.org/articles/google-stitch-is-the-most-overlooked-tool-in-the-ai-builder-stack) <sub>(Feb 24, 2026)</sub>
-- [Gemini 3.1 Pro Review: Better, But Still Behind Where It Matters](https://bhart.org/articles/gemini-31-pro-review-better-but-still-behind-where-it-matters) <sub>(Feb 20, 2026)</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect
