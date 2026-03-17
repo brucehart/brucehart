@@ -66,10 +66,3 @@
 [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/brucehart)
 [![Blog](https://img.shields.io/badge/-bhart.org-FF5722?style=flat-square&logo=hugo&logoColor=white)](https://bhart.org/)
 
----
-
-### What I’m Doing
-
-- Building practical AI systems and automation workflows that are reliable before they are flashy
-- Writing about engineering tradeoffs, command-line productivity, and what’s useful in production
-- Shipping prototypes quickly, validating quickly, and refining based on real feedback (often from mistakes)
