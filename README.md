@@ -43,11 +43,11 @@
 ## News
 
 <!-- NEWS-LIST:START -->
+- [Starting Lineup Talking Baseball emulator update: much better UI, bug fixes, and what is next](https://bhart.org/news#news-8bfc5805-e5e4-41b4-baee-23ddc7cade9b) <sub>(Mar 17, 2026)</sub>
 - [New Web Tools addition: area code lookup](https://bhart.org/news#news-7b4e21eb-f184-4b76-a5f4-e4851b9d1f5f) <sub>(Mar 12, 2026)</sub>
 - [New Web Tools addition: browser image editor](https://bhart.org/news#news-2565d7af-7f64-47b7-ae6d-9273f4f854b6) <sub>(Mar 7, 2026)</sub>
 - [New userscript: NYT Connections Color Cycler](https://bhart.org/news#news-900b7a41-1920-43a9-bc43-fb70797faaaf) <sub>(Mar 4, 2026)</sub>
 - [harlite 0.3 — big workflow, privacy and observability upgrades](https://bhart.org/news#news-bdc09d82-9fa6-4b7d-a179-b8d33b60947b) <sub>(Feb 11, 2026)</sub>
-- [harlite: query HAR files with SQL](https://bhart.org/news#news-0d2608a4-4d33-477e-8b50-706506bf2268) <sub>(Jan 27, 2026)</sub>
 <!-- NEWS-LIST:END -->
 
 ## Latest Blog Posts
