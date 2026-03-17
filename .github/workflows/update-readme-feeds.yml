@@ -13,35 +13,114 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - name: Update README with latest blog posts
-        id: blog_posts
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://bhart.org/rss.xml"
-          max_post_count: 5
-          output_only: true
-          enable_keepalive: false
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch latest blog and news posts
+        id: feeds
+        env:
+          BLOG_FEED_URL: https://bhart.org/rss.xml
+          NEWS_FEED_URL: https://bhart.org/news-rss.xml
+          MAX_POST_COUNT: "5"
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from email.utils import parsedate_to_datetime
 
-      - name: Update README with latest news
-        id: news_posts
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          comment_tag_name: "NEWS-LIST"
-          feed_list: "https://bhart.org/news-rss.xml"
-          max_post_count: 5
-          output_only: true
-          enable_keepalive: false
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
+
+          ATOM_NS = "{http://www.w3.org/2005/Atom}"
+
+
+          def parse_date(raw):
+              if not raw:
+                  return ""
+              try:
+                  return parsedate_to_datetime(raw).astimezone().isoformat()
+              except (TypeError, ValueError, IndexError):
+                  return raw
+
+
+          def text_or_empty(element, path):
+              child = element.find(path)
+              if child is None or child.text is None:
+                  return ""
+              return child.text.strip()
+
+
+          def entry_link(entry):
+              link = text_or_empty(entry, "link")
+              if link:
+                  return link
+
+              atom_link = entry.find(f"{ATOM_NS}link")
+              if atom_link is None:
+                  return ""
+              return (atom_link.get("href") or "").strip()
+
+
+          def parse_feed(url, max_items):
+              request = urllib.request.Request(url, headers={"User-Agent": "brucehart-readme-feed-updater/1.0"})
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  payload = response.read()
+
+              root = ET.fromstring(payload)
+              channel = root.find("channel")
+              items = []
+
+              if channel is not None:
+                  entries = channel.findall("item")
+                  for entry in entries:
+                      items.append(
+                          {
+                              "title": text_or_empty(entry, "title"),
+                              "url": entry_link(entry),
+                              "date": parse_date(
+                                  text_or_empty(entry, "pubDate")
+                                  or text_or_empty(entry, "published")
+                                  or text_or_empty(entry, "updated")
+                              ),
+                          }
+                      )
+              else:
+                  entries = root.findall(f"{ATOM_NS}entry")
+                  for entry in entries:
+                      items.append(
+                          {
+                              "title": text_or_empty(entry, f"{ATOM_NS}title"),
+                              "url": entry_link(entry),
+                              "date": parse_date(
+                                  text_or_empty(entry, f"{ATOM_NS}published")
+                                  or text_or_empty(entry, f"{ATOM_NS}updated")
+                              ),
+                          }
+                      )
+
+              items = [item for item in items if item["title"] and item["url"]]
+              items.sort(key=lambda item: item["date"], reverse=True)
+              return items[:max_items]
+
+
+          blog_posts = parse_feed(os.environ["BLOG_FEED_URL"], int(os.environ["MAX_POST_COUNT"]))
+          news_posts = parse_feed(os.environ["NEWS_FEED_URL"], int(os.environ["MAX_POST_COUNT"]))
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              for name, value in (
+                  ("blog_results", blog_posts),
+                  ("news_results", news_posts),
+              ):
+                  output.write(f"{name}<<__CODEx_EOF__\n")
+                  output.write(json.dumps(value))
+                  output.write("\n__CODEx_EOF__\n")
+          PY
 
       - name: Render feed sections into README
         env:
-          BLOG_RESULTS: ${{ steps.blog_posts.outputs.results }}
-          NEWS_RESULTS: ${{ steps.news_posts.outputs.results }}
+          BLOG_RESULTS: ${{ steps.feeds.outputs.blog_results }}
+          NEWS_RESULTS: ${{ steps.feeds.outputs.news_results }}
         run: |
           node <<'NODE'
           const fs = require('node:fs');
