@@ -15,7 +15,7 @@
 > I build software that works in the real world, not just in a README screenshot.  
 > I write about practical AI, automation, and things that hold up after the first use.
 
-🍭 [**bhart.org**](https://bhart.org/) — Practical AI and engineering notes from what I’m currently building (and occasionally overthinking).
+🍭 [**bhart.org**](https://bhart.org/) — Practical AI and engineering notes from what I'm currently building (and occasionally overthinking).
 
 ## Current Projects
 
@@ -28,6 +28,7 @@
 - 🌙 **[Bedtime Stories](https://github.com/brucehart/bedtimestories)** – AI-generated stories delivered via Cloudflare Worker
 - 🕯️ **[Celebrity Death Bot](https://github.com/brucehart/celebrity-death-bot)** – tracks notable deaths and publishes concise updates
 - 📌 **[userscripts](https://github.com/brucehart/userscripts)** – lightweight browser scripts for workflow improvements
+- 🧩 **[nyt-connections-helper](https://github.com/brucehart/nyt-connections-helper)** – Chrome extension for customizable NYT Connections tile color cycling and toolbar controls
 - 🃏 **[pokerboom](https://github.com/brucehart/pokerboom)** – game project with card-play logic and puzzle mechanics
 
 ## Career
@@ -65,4 +66,3 @@
 [![LinkedIn](https://img.shields.io/badge/-Bruce%20Hart-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hartbruce/)
 [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/brucehart)
 [![Blog](https://img.shields.io/badge/-bhart.org-FF5722?style=flat-square&logo=hugo&logoColor=white)](https://bhart.org/)
-
