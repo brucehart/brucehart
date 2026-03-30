@@ -19,17 +19,17 @@
 
 ## Current Projects
 
-- 🍼 **[bhart-org](https://github.com/brucehart/bhart-org)** – personal site and writing platform on Cloudflare Workers
-- 🔎 **[web-tools](https://github.com/brucehart/web-tools)** – browser tools for everyday utility tasks I keep forgetting are simple
-- 🧾 **[codex-transcripts](https://github.com/brucehart/codex-transcripts)** – converts Codex session logs into mobile-friendly transcripts
-- 🧰 **[codex-skills](https://github.com/brucehart/codex-skills)** – reusable Codex skills for practical, repeatable workflows
-- 📊 **[harlite](https://github.com/brucehart/harlite)** – imports HAR files into SQLite so debugging is slightly less painful
+- 🍼 **[bhart.org](https://github.com/brucehart/bhart-org)** – personal site and writing platform on Cloudflare Workers
+- 🔎 **[Web Tools](https://github.com/brucehart/web-tools)** – browser tools for everyday utility tasks I keep forgetting are simple
+- 🧾 **[Codex Transcripts](https://github.com/brucehart/codex-transcripts)** – converts Codex session logs into mobile-friendly transcripts
+- 🧰 **[Codex Skills](https://github.com/brucehart/codex-skills)** – reusable Codex skills for practical, repeatable workflows
+- 📊 **[Harlite](https://github.com/brucehart/harlite)** – imports HAR files into SQLite so debugging is slightly less painful
 - 🧠 **[Codex CLI Prompts](https://github.com/brucehart/codex-prompts)** – reusable prompts for docs, commits, PRs, refactors, and tests
 - 🌙 **[Bedtime Stories](https://github.com/brucehart/bedtimestories)** – AI-generated stories delivered via Cloudflare Worker
 - 🕯️ **[Celebrity Death Bot](https://github.com/brucehart/celebrity-death-bot)** – tracks notable deaths and publishes concise updates
-- 📌 **[userscripts](https://github.com/brucehart/userscripts)** – lightweight browser scripts for workflow improvements
-- 🧩 **[nyt-connections-helper](https://github.com/brucehart/nyt-connections-helper)** – Chrome extension for customizable NYT Connections tile color cycling and toolbar controls
-- 🃏 **[pokerboom](https://github.com/brucehart/pokerboom)** – game project with card-play logic and puzzle mechanics
+- 📌 **[User Scripts](https://github.com/brucehart/userscripts)** – lightweight browser scripts for workflow improvements
+- 🧩 **[NYT Connections Helper](https://github.com/brucehart/nyt-connections-helper)** – Chrome extension for customizable NYT Connections tile color cycling and toolbar controls
+- 🃏 **[Pokerboom](https://github.com/brucehart/pokerboom)** – game project with card-play logic and puzzle mechanics
 
 ## Career
 
