@@ -54,11 +54,11 @@
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [NYT Connections Helper Is Live in the Chrome Web Store](https://bhart.org/articles/nyt-connections-helper-is-live-in-the-chrome-web-store) <sub>(Mar 30, 2026)</sub>
 - [Before Polymarket, I Had a Side Hustle Trading Super Bowl Ticket Futures](https://bhart.org/articles/before-polymarket-i-had-a-side-hustle-trading-super-bowl-ticket-futures) <sub>(Mar 27, 2026)</sub>
 - [Most of Life Is Pattern Matching Until It Isn't](https://bhart.org/articles/most-of-life-is-pattern-matching-until-it-isnt) <sub>(Mar 17, 2026)</sub>
 - [I Got Starting Lineup Talking Baseball Running in the Browser](https://bhart.org/articles/i-got-starting-lineup-talking-baseball-running-in-the-browser) <sub>(Mar 16, 2026)</sub>
 - [Partial Minds: Intelligence, God, and the Limits of Access](https://bhart.org/articles/partial-minds-intelligence-god-and-the-limits-of-access) <sub>(Mar 15, 2026)</sub>
-- [GPT-5.4 Is My Daily Driver. Claude Opus 4.6 Is Still My Specialist.](https://bhart.org/articles/gpt-54-is-my-daily-driver-claude-opus-46-is-still-my-specialist) <sub>(Mar 11, 2026)</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect
