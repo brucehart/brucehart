@@ -54,11 +54,11 @@
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [I Built Some SMS Backup Tools So My Texts Could Escape XML](https://bhart.org/articles/i-built-some-sms-backup-tools-so-my-texts-could-escape-xml) <sub>(Apr 19, 2026)</sub>
 - [The AI Race Is Starting to Look Like Logistics](https://bhart.org/articles/the-ai-race-is-starting-to-look-like-logistics) <sub>(Apr 3, 2026)</sub>
 - [I Added AVIF Export to My Browser Image Editor in Under 10 Minutes With Codex](https://bhart.org/articles/i-added-avif-export-to-my-browser-image-editor-in-under-10-minutes-with-codex) <sub>(Apr 1, 2026)</sub>
 - [NYT Connections Helper Is Live in the Chrome Web Store](https://bhart.org/articles/nyt-connections-helper-is-live-in-the-chrome-web-store) <sub>(Mar 30, 2026)</sub>
 - [Before Polymarket, I Had a Side Hustle Trading Super Bowl Ticket Futures](https://bhart.org/articles/before-polymarket-i-had-a-side-hustle-trading-super-bowl-ticket-futures) <sub>(Mar 27, 2026)</sub>
-- [Most of Life Is Pattern Matching Until It Isn't](https://bhart.org/articles/most-of-life-is-pattern-matching-until-it-isnt) <sub>(Mar 17, 2026)</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect
