@@ -44,11 +44,11 @@
 ## News
 
 <!-- NEWS-LIST:START -->
+- [New userscript for opening Instagram images directly](https://bhart.org/news#news-83a1fd23-53f2-42ad-94e8-efce5df535fa) <sub>(May 11, 2026)</sub>
 - [NYT Connections Helper is now a Chrome extension](https://bhart.org/news#news-d6775ee3-5972-4f6f-a556-9e555bc4cba6) <sub>(Mar 29, 2026)</sub>
 - [Starting Lineup Talking Baseball emulator update: much better UI, bug fixes, and what is next](https://bhart.org/news#news-8bfc5805-e5e4-41b4-baee-23ddc7cade9b) <sub>(Mar 17, 2026)</sub>
 - [New Web Tools addition: area code lookup](https://bhart.org/news#news-7b4e21eb-f184-4b76-a5f4-e4851b9d1f5f) <sub>(Mar 12, 2026)</sub>
 - [New Web Tools addition: browser image editor](https://bhart.org/news#news-2565d7af-7f64-47b7-ae6d-9273f4f854b6) <sub>(Mar 7, 2026)</sub>
-- [New userscript: NYT Connections Color Cycler](https://bhart.org/news#news-900b7a41-1920-43a9-bc43-fb70797faaaf) <sub>(Mar 4, 2026)</sub>
 <!-- NEWS-LIST:END -->
 
 ## Latest Blog Posts
