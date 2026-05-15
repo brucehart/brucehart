@@ -15,11 +15,11 @@
 > I build software that works in the real world, not just in a README screenshot.  
 > I write about practical AI, automation, and things that hold up after the first use.
 
-🍭 [**bhart.org**](https://bhart.org/) — Practical AI and engineering notes from what I'm currently building (and occasionally overthinking).
+📝 [**bhart.org**](https://bhart.org/) — Practical AI and engineering notes from what I'm currently building (and occasionally overthinking).
 
 ## Current Projects
 
-- 🍼 **[bhart.org](https://github.com/brucehart/bhart-org)** – personal site and writing platform on Cloudflare Workers
+- 📝 **[bhart.org](https://github.com/brucehart/bhart-org)** – personal site and writing platform on Cloudflare Workers
 - 🔎 **[Web Tools](https://github.com/brucehart/web-tools)** – browser tools for everyday utility tasks I keep forgetting are simple
 - 🧾 **[Codex Transcripts](https://github.com/brucehart/codex-transcripts)** – converts Codex session logs into mobile-friendly transcripts
 - 🧰 **[Codex Skills](https://github.com/brucehart/codex-skills)** – reusable Codex skills for practical, repeatable workflows
