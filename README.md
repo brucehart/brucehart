@@ -54,11 +54,11 @@
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [The AI College Split Is Already Here](https://bhart.org/articles/the-ai-college-split-is-already-here) <sub>(May 18, 2026)</sub>
 - [I Turned the 2026 NFL Schedule Into JSON in Minutes](https://bhart.org/articles/i-turned-the-2026-nfl-schedule-into-json-in-minutes) <sub>(May 15, 2026)</sub>
 - [Codex With Chrome Turns Messy Websites Into Usable Data](https://bhart.org/articles/codex-with-chrome-turns-messy-websites-into-usable-data) <sub>(May 8, 2026)</sub>
 - [GPT-5.5 Is Better at UI When You Give It a Picture](https://bhart.org/articles/gpt-55-is-better-at-ui-when-you-give-it-a-picture) <sub>(Apr 27, 2026)</sub>
 - [GPT-5.5 Feels Like an Incremental Upgrade That Actually Matters](https://bhart.org/articles/gpt-55-feels-like-an-incremental-upgrade-that-actually-matters) <sub>(Apr 27, 2026)</sub>
-- [I Built Some SMS Backup Tools So My Texts Could Escape XML](https://bhart.org/articles/i-built-some-sms-backup-tools-so-my-texts-could-escape-xml) <sub>(Apr 19, 2026)</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect
