@@ -31,16 +31,6 @@
 - 🧩 **[NYT Connections Helper](https://github.com/brucehart/nyt-connections-helper)** – Chrome extension for customizable NYT Connections tile color cycling and toolbar controls
 - 🃏 **[Pokerboom](https://github.com/brucehart/pokerboom)** – game project with card-play logic and puzzle mechanics
 
-## Career
-
-- 🧪 Chief Scientist - Special Programs, KBR (05/2024 - Present)
-- 🛡️ Senior Director - Cyber Analytics, KBR (09/2020 - 05/2024)
-- 📈 Vice President - Cyber Analytics, Centauri (12/2019 - 09/2020)
-- 🧭 Chief Technology Officer, PreTalen (01/2016 - 12/2019)
-- 🧰 Senior Software Engineer, NDC Technologies (05/2013 - 01/2016)
-- 🔬 Senior Member of R&D Staff, GIRD Systems (05/2004 - 05/2013)
-- 💻 Software Engineer, UDRI (07/1999 - 05/2004)
-
 ## News
 
 <!-- NEWS-LIST:START -->
