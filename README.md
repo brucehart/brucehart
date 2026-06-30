@@ -44,11 +44,11 @@
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Codex Helped Me Rescue Texts From an Old Android Phone](https://bhart.org/articles/codex-helped-me-rescue-texts-from-an-old-android-phone) <sub>(Jun 30, 2026)</sub>
 - [I Put Codex Inside My Bedtime Stories App](https://bhart.org/articles/i-put-codex-inside-my-bedtime-stories-app) <sub>(Jun 15, 2026)</sub>
 - [Celebrity Death Bot Is a Memento Mori Machine](https://bhart.org/articles/celebrity-death-bot-is-a-memento-mori-machine) <sub>(Jun 14, 2026)</sub>
 - [AI Code Is Not Slop. Bad Process Is.](https://bhart.org/articles/ai-code-is-not-slop-bad-process-is) <sub>(Jun 1, 2026)</sub>
 - [The AI College Split Is Already Here](https://bhart.org/articles/the-ai-college-split-is-already-here) <sub>(May 18, 2026)</sub>
-- [I Turned the 2026 NFL Schedule Into JSON in Minutes](https://bhart.org/articles/i-turned-the-2026-nfl-schedule-into-json-in-minutes) <sub>(May 15, 2026)</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect
