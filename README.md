@@ -44,11 +44,11 @@
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [A Blank PDF Form Is My New Favorite AI Benchmark](https://bhart.org/articles/a-blank-pdf-form-is-my-new-favorite-ai-benchmark) <sub>(Jul 11, 2026)</sub>
 - [My Favorite Codex Skill Is a Dumb Little File Clerk](https://bhart.org/articles/my-favorite-codex-skill-is-a-dumb-little-file-clerk) <sub>(Jul 9, 2026)</sub>
 - [The /goal Function Made Loop Engineering Click for Me](https://bhart.org/articles/the-goal-function-made-loop-engineering-click-for-me) <sub>(Jul 7, 2026)</sub>
 - [A 4th of July With Baseball, Firmware, and Codex](https://bhart.org/articles/a-4th-of-july-with-baseball-firmware-and-codex) <sub>(Jul 5, 2026)</sub>
 - [Codex Helped Me Rescue Texts From an Old Android Phone](https://bhart.org/articles/codex-helped-me-rescue-texts-from-an-old-android-phone) <sub>(Jun 30, 2026)</sub>
-- [I Put Codex Inside My Bedtime Stories App](https://bhart.org/articles/i-put-codex-inside-my-bedtime-stories-app) <sub>(Jun 15, 2026)</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect
